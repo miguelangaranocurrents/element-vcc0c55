@@ -28,6 +28,7 @@
     background-color: inherit;
     color: inherit; /* inherit the colour from the dark or light theme by default (but not for code blocks) */
     flex: 1;
+    min-width: 0; /* let wide code blocks scroll instead of widening the flex container */
 
     pre,
     code {

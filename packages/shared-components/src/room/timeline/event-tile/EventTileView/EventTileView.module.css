@@ -125,6 +125,12 @@
     text-align: start;
 }
 
+/* While editing, the composer's autocomplete and format bar must be able to
+   overflow the body slot. */
+.root.stateEditing .slotBody > * {
+    overflow: visible;
+}
+
 .slotAvatar {
     cursor: pointer;
     user-select: none;
